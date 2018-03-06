@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=textarea]{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+h3 {
+	text-align: center;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+img {
+	width: 25%;
+	height: 25%;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<title>Module Outline</title>
+<body>
+<div>
+	<form>
+		<img src="C:\Users\hp\Desktop\Research\NewLogo.png">
+		<div>
+			<label for="departmentOf">DEPARTMENT OF</label>
+			<select id="departmentOf" name="departmentOf">
+			<option value="softwareEngineering">Software Engineering</option>
+			<option value="informationTechnology">Information Technology</option>
+			<option value="cyberSecurity">Cyber Security</option>
+			<option value="interactiveMedia">Interactive Media</option>
+			<option value="informationSystem">Information System</option>	  
+			</select>
+		
+			<label for="facultyOf">FACULTY OF</label>
+			<select id="facultyOf" name="facultyOf">
+			<option value="computing">Computing</option>
+			<option value="engineering">Engineering</option>
+			<option value="business">Business</option>
+			</select>
+		</div>
+	</form>
+</div>
+
+<h3>Module Outline</h3>
+
+<div>
+  <form>
+    <label for="mName">Module Name</label>
+    <input type="text" id="mName" name="modulename" placeholder="Module name..">
+
+    <label for="code">Module Code</label>
+    <input type="text" id="code" name="modulecode" placeholder="Module code..">
+	
+	<label for="vNumber">Version No.</label>
+    <input type="text" id="vNumber" name="versionno" placeholder="Version No..">
+
+    <label for="year">Year/Level</label>
+    <select id="year" name="year">
+      <option>01</option>
+      <option>02</option>
+      <option>03</option>
+	  <option>04</option>
+    </select>
+	
+	<label for="semester">Semester</label>
+    <select id="semester" name="semester">
+      <option>01</option>
+      <option>02</option>
+    </select>
+	
+	<label for="credit">Credit points</label>
+    <input type="text" id="credit" name="credit" placeholder="Credit points..">
+	
+	<label for="pre">Pre-requisites</label>
+    <input type="text" id="pre" name="pre" placeholder="Pre-requisites..">
+	
+	<label for="co">Co-requisites</label>
+    <input type="text" id="co" name="co" placeholder="Co-requisites..">
+	
+	<h4>Methods of Delivery</h4>
+	<br>
+	<label for="lectures">Lectures</label><br>
+    <input type="text" id="lectures" name="lectures" style="width:90%"><label>Hours/Week</label>
+	<br>
+	<label for="tutorials">Tutorials</label><br>
+    <input type="text" id="tutorials" name="tutorials" style="width:90%"><label>Hours/Week</label>
+	<br>
+	<label for="labs">Labs</label><br>
+    <input type="text" id="labs" name="labs" style="width:90%"><label>Hours/Fortnight</label>
+	<br>
+	
+	<label for="original">Date of Original Apporve</label>
+    <input type="text" id="original" name="original"><br>
+	
+	<label for="review">Date of New Review</label>
+    <input type="text" id="review" name="review">
+    
+	
+	<h3>Module Description</h3>
+	<div>
+	<form>
+		<label for="intro">Introduction</label>
+		<input type="textarea" id="intro" name="intro">
+	</form>
+</div>
+	
+<input type="submit" value="Submit">
+</form>
+</div>
+
+
+
+</body>
+</html>
